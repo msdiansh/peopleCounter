@@ -1,12 +1,16 @@
 body {
-    background-image: url("yarn.jpeg");
-    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-image: url("station.jpg");
+    background-size: contain;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    height: 100vh;
+    
 }
 
 .container {
+    
+    padding: 20px;
     background: white;
     max-width: 80%;
     margin: auto;
@@ -37,11 +41,11 @@ button {
 }
 
 #increment-btn {
-    background: #2C2891;
+    background: #d17308;
 }
 
 #save-btn {
-    background: #1C7947;
+    background: #1197f0;
 }
 
 #save-el {
